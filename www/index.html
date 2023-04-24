@@ -20,9 +20,18 @@
     <input type="button" name="btnRemoverInicio" value="Remover no inicio" onclick="VetorUnshiftDelete()">
     <input type="button" name="btnRemoverFinal" value="Remover no final" onclick="VetorPushDelete()">
     <br>
-    <br> <!-- -->
-    <p>Pesquisar</p>
-    <input type="number" name="valorExibir" id="valorExibir" placeholder="Valor do que deseja exibir">
+    <br> <!-- Exibir em alert nomes do vetor -->
+    <p>Exibir</p>
     <input type="button" name="btnExibir" value="Exibir" onclick="Exibir()">
+    <br>
+    <br> <!-- Pesquisar nomes do vetor -->
+    <p>Pesquisar</p>
+    <input type="number" name="valorSearch" id="valorSearch" placeholder="Valor do que deseja pesquisar">
+    <input type="button" name="btnSearch" value="Pesquisar" onclick="Search()">
+    <br>
+    <br> <!-- Listar no html nomes do vetor -->
+    <p>Listar</p>
+    <input type="button" name="btnListar" value="Listar" onclick="Listar()">
+    <ol id="listarNomes"></ol>
 </body>
 </html>

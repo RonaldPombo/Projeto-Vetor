@@ -29,6 +29,19 @@ function VetorUnshiftDelete(){
 }
 
 function Exibir(){
-    var exibirValor = parseInt(document.getElementById('valorExibir').value)
-    alert(nomes[exibirValor-1])
+    alert(nomes)
+}
+
+function Search(){
+    var searchValor = parseInt(document.getElementById('valorSearch').value)
+    alert(nomes[searchValor-1])
+}
+
+function Listar(){
+    for(var i = 0; i < nomes.length; i++){
+        var node = document.createElement("li");
+        var textnode = document.createTextNode(nomes[i]);
+        node.appendChild(textnode);
+        document.getElementById("listarNomes").appendChild(node);
+    }
 }
