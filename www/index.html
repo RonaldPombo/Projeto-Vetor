@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    <script src="components/mainScript.js"></script>
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+    </script>
+</head>
+<body> <!-- Valor a ser adicionado -->
+    <input type="text" name="username" id="username" placeholder="Insira aqui seu nome">
+    <br> <!-- Adicionar nomes no vetor -->
+    <input type="button" name="btnCadastrarInicio" value="Cadastrar no inicio" onclick="VetorUnshift()">
+    <input type="button" name="btnCadastrarFinal" value="Cadastrar no final" onclick="VetorPush()">
+    <br> <!-- Remover nomes no vetor -->
+    <input type="button" name="btnRemoverInicio" value="Remover no inicio" onclick="VetorUnshiftDelete()">
+    <input type="button" name="btnRemoverFinal" value="Remover no final" onclick="VetorPushDelete()">
+    <br>
+    <br> <!-- -->
+    <p>Pesquisar</p>
+    <input type="number" name="valorExibir" id="valorExibir" placeholder="Valor do que deseja exibir">
+    <input type="button" name="btnExibir" value="Exibir" onclick="Exibir()">
+</body>
+</html>
