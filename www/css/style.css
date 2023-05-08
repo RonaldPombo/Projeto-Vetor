@@ -3,7 +3,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
-#butao4 {
+input {
      display: inline-block;
                 outline: 0;
                 border: none;
